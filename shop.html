@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Libraries/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/shop.css">
+    </head>
+    <body>
+
+<!---------- >>Start Nav Dashboard<< --------->
+
+<section class="navigation">
+    <div class="sidebar_menu">
+
+      <div class="Logo">
+        <i class="fa-solid fa-mug-hot bx bxl-slack icon"></i>
+        <div class="Text_Logo"> <img src="images/Delice/logo.png" alt="logo" >
+        </div>
+        <i class='fa-solid fa-bars bx bx-menu' id="Button"></i>
+      </div>
+
+    <ul class="Nav_Item">
+        <li>
+            <i class="fa-solid fa-magnifying-glass bx bx-search"></i>
+          <input type="text" placeholder="Search....">
+          <span class="Menu_btn">Search</span>
+        </li>
+
+      <li>
+      <a href="home.html">
+        <i class="fa-solid fa-house bx bx-grid-alt"></i>
+        <span class="Item_Name">Home</span>
+      </a>
+        <span class="Menu_btn">Home</span>
+      </li>
+
+      <li>
+      <a href="#">
+        <i class="fa-regular fa-user bx bx-user"></i>
+        <span class="Item_Name">User</span>
+      </a>
+      <span class="Menu_btn">User</span>
+      </li>
+
+      <li>
+      <a href="cart.html">
+      <i class="fa-solid fa-cart-shopping bx bxs-star-half"></i>
+      <span class="Item_Name">Cart</span>
+      </a>
+      <span class="Menu_btn">Cart</span>
+      </li>
+
+    <li>
+      <a href="shop.html">
+        <i class="fa-solid fa-shop bx bx-trip"></i>
+      <span class="Item_Name">Shop</span>
+      </a>
+      <span class="Menu_btn">Shop</span>
+    </li>
+
+    <li>
+      <a href="shop details.html">
+      <i class='fa-solid fa-list-ul bx bx-volume-low'></i>
+        <span class="Item_Name">Shop Details</span>
+      </a>
+      <span class="Menu_btn">Shop Details</span>
+      </li>
+
+    <li>
+      <a href="checkout.html">
+      <i class="fa-regular fa-credit-card bx bx-bell"></i>
+      <span class="Item_Name">Checkout</span>
+      </a>
+      <span class="Menu_btn">Checkout</span>
+      </li>
+      <li>
+      <a href="#">
+      <i class="fa-solid fa-heart bx bx-bell"></i>
+      <span class="Item_Name">Wishlist</span>
+      </a>
+      <span class="Menu_btn">Wishlist</span>
+      </li>
+
+      <li class="Details">
+
+        <i class="fa-solid fa-right-to-bracket bx bxs-info-circle" id="log_out"></i>
+        </li>
+    </ul>
+    </div>
+  </section>
+
+  <!---------- >>END Nav Dashboard<< --------->
+
+
+<!----------- >>Start Sec Background<< ----------->
+
+<section class="sec-background">
+    <div class="bg-img"></div>
+    <div class="bg-content ">
+       <h1>Shop Store</h1>
+    </div>
+</section>
+
+<!------------ >>End Sec Background<< ------------>
+
+
+<!------------------ >>Input Search<< --------------->
+
+<section class="py-5">
+<div class="container">
+    <input onkeyup="searchByTitle(this.value)" class="form-control my-3  inp_search" type="text" id="search" placeholder="Search">
+    <div class="row" id="row"></div>
+</div>
+</section>
+<!------------------ >><< ---------------------->
+
+<!-- text -->
+
+<div class="shop-sec">
+    <div class="container">
+        <h3>Products Section</h3>
+        <p>Find your favorite Coffee</p>
+    </div>
+</div>
+<!--  -->
+
+
+<!---------- >>Start Section Products<< --------->
+
+<section id="product1" class="section-p1">
+
+
+    <div class="list" id="product-list">
+
+
+    </div>
+
+<ul class="listPage">
+    <li onclick="changePage()"><span class="pre"><i class="fa-solid fa-arrow-left-long"></i> Previous </span></li>
+    <li onclick="changePage()"><span class="next text-white">Next <i class="fa-solid fa-arrow-right "></i> </span></li>
+  </ul>
+
+
+</section>
+
+<!---------- >>End Section Products<< --------->
+
+
+<!---------- >>Start Sec Footer<< --------->
+
+<footer class="footer-section">
+  <div class="container">
+      <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <div class="cta-text">
+                          <h4>Find us</h4>
+                          <span>1010 Avenue, sw 54321, chandigarh</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="fas fa-phone"></i>
+                      <div class="cta-text">
+                          <h4>Call us</h4>
+                          <span>9876543210 0</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-4 mb-30">
+                  <div class="single-cta">
+                      <i class="far fa-envelope-open"></i>
+                      <div class="cta-text">
+                          <h4>Mail us</h4>
+                          <span>mail@info.com</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer-content pt-5 pb-5">
+          <div class="row">
+              <div class="col-xl-4 col-lg-4 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html"><img src="images/Delice/logo.png" class="img-fluid" alt="logo"></a>
+                      </div>
+                      <div class="footer-text">
+                          <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                          elit,Lorem ipsum dolor sit amet.</p>
+                      </div>
+                      <div class="footer-social-icon">
+                          <span>Follow us</span>
+                          <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                          <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                          <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Useful Links</h3>
+                      </div>
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">about</a></li>
+                          <li><a href="#">services</a></li>
+                          <li><a href="#">portfolio</a></li>
+                          <li><a href="#">Contact</a></li>
+                          <li><a href="#">About us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Expert Team</a></li>
+                          <li><a href="#">Contact us</a></li>
+                          <li><a href="#">Latest News</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                  <div class="footer-widget">
+                      <div class="footer-widget-heading">
+                          <h3>Subscribe</h3>
+                      </div>
+                      <div class="footer-text mb-25">
+                          <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                      </div>
+                      <div class="subscribe-form">
+                          <form action="#">
+                              <input type="text" placeholder="Email Address"/>
+                              <button><i class="fab fa-telegram-plane"></i></but>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copyright-area">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                  <div class="copyright-text">
+                      <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                  </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                  <div class="footer-menu">
+                      <ul>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="#">Terms</a></li>
+                          <li><a href="#">Privacy</a></li>
+                          <li><a href="#">Policy</a></li>
+                          <li><a href="#">Contact</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+<!---------- >>End Sec Footer<< --------->
+
+
+
+
+
+
+<!------ >>Javascript Files<< ------->
+
+        <script src="Libraries/jquery/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="Libraries/js/bootstrap.min.js"></script>
+        <script src="js/shop.js"></script>
+    </body>
+</html>

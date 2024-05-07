@@ -1,0 +1,134 @@
+{
+ "products":[
+    {
+    "id":1,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":2,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":3,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":4,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":5,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":6,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":7,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":8,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":9,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":10,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":11,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+},
+{
+    "id":12,
+    "title":"iPhone 9",
+    "description":"An apple mobile which is nothing like apple",
+    "price":549,
+    "image":"https://i.dummyjson.com/data/products/1/thumbnail.jpg"
+}
+
+],
+"shop_category":
+[
+    {
+    "id":1,
+    "category_name":"a",
+    "category_description":"a",
+    "category_price":5,
+    "category_image":"url"
+},
+{
+    "id":2,
+    "category_name":"a",
+    "category_description":"a",
+    "category_price":5,
+    "category_image":"url"
+},
+{
+    "id":3,
+    "category_name":"a",
+    "category_description":"a",
+    "category_price":5,
+    "category_image":"url"
+},
+{
+    "id":4,
+    "category_name":"a",
+    "category_description":"a",
+    "category_price":5,
+    "category_image":"url"
+},
+{
+    "id":5,
+    "category_name":"a",
+    "category_description":"a",
+    "category_price":5,
+    "category_image":"url"
+},
+{
+    "id":6,
+    "category_name":"a",
+    "category_description":"a",
+    "category_price":5,
+    "category_image":"url"
+}
+]
+}
